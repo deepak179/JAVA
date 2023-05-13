@@ -6,9 +6,14 @@ public class Typeconversion {
         //int a = 257;
         //byte b = (byte)a;  // type casting --> Modulo is performed
 
-        float f = 5.6f;
-        int t = (int)f;   //type casting
-        System.out.println(f + " Value of float type ");
-        System.out.println(t + " Value of int type ");
+        //float f = 5.6f;
+        //int t = (int)f;   //type casting
+        //System.out.println(f + " Value of float type ");
+        //System.out.println(t + " Value of int type ");
+
+        byte a = 10;
+        byte b = 30;
+        int result = a*b;      // type promotion
+        System.out.println(result);
     }    
 }
