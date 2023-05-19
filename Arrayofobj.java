@@ -37,10 +37,15 @@ public class Arrayofobj {
        students[2] = s3;
        students[3] = s4;
 
-       for(int i = 0; i < students.length; i++)
-       {
-        System.out.println(students[i].name + " : " + students[i].marks);
-       }
+    //    for(int i = 0; i < students.length; i++)
+    //    {
+    //     System.out.println(students[i].name + " : " + students[i].marks);
+    //    }
+    for(Student s : students)
+    {
+     System.out.println(s.name + " : " + s.marks);
+     System.out.println();
+    }
     
     }
 }
