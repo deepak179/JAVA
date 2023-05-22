@@ -33,6 +33,8 @@ public class Staticblock {
         Mobile obj2 = new Mobile("Google", 30000, "Pixel 6a");
         Mobile obj3 = new Mobile("Apple", 60000, "iphone 13");
         obj1.display();
+        obj2.display();
+        obj3.display();
 
 
         // Class.forName("Mobile");    // for loading the class without creating the object
