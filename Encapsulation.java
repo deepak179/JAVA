@@ -2,28 +2,26 @@ class Human
 {
     private int age;                    // age is only accessible in the same class. No object from outside the class can use it.
     private String name;                // These variables can be accessed but not directly. The variables can be accessed by the methods of the class
+    
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
 
     // public Human(String n, int a)
     // {
     //     name = n;
     //     age = a;
     // }
-    public void setName(String n)
-    {
-        name = n;
-    }
-    public void setAge(int a)
-    {
-        age = a;
-    }
-    public String getName()
-    {
-        return name;
-    }
-    public int getAge()
-    {
-        return age;
-    } 
+    
 }
 
 public class Encapsulation {
