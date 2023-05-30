@@ -1,3 +1,5 @@
+package calculator;
+
 public class Calc {
     public int add(int n, int m)
     {

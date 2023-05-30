@@ -1,3 +1,4 @@
+import calculator.*;
 public class Inheritance {
     public static void main(String[] args) {
         ScientificCalc obj = new ScientificCalc();
