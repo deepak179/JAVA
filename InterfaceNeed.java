@@ -1,3 +1,5 @@
+// Interface can be used to Generalize the different object types
+
 interface Computer
 {
     void code();
